@@ -6,6 +6,7 @@
         <Nullable>enable</Nullable>
         <Version>1.0</Version>
         <PackageProjectUrl>github.com/Arsen1yGD/HumanOrNot.NET</PackageProjectUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
 
     <ItemGroup>

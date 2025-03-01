@@ -54,8 +54,6 @@ public class Bot
         Client.DefaultRequestHeaders.UserAgent.ParseAdd(userAgent);
 
         UserId = GenerateBotId();
-
-        Console.WriteLine($"Created bot with ID: {UserId}");
     }
 
     /// <summary>
@@ -76,8 +74,6 @@ public class Bot
         Client.DefaultRequestHeaders.UserAgent.ParseAdd(userAgent);
 
         UserId = userId;
-
-        Console.WriteLine($"Created bot with ID: {UserId}");
     }
 
     /// <summary>
