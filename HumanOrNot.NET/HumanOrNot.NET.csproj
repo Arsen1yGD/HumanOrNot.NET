@@ -4,6 +4,12 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <Version>1.0</Version>
+        <PackageProjectUrl>github.com/Arsen1yGD/HumanOrNot.NET</PackageProjectUrl>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
 
 </Project>
