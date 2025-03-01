@@ -40,7 +40,7 @@ while (chat.ChatData.IsActive)
 }
 ```
 
-Also, if you need to consider using partner's (other side) reply, just call `Message msg = chat.GetPartnerMessage() ?? break;`, which will return a Message object, and how you can extract the real message by doing `msg.Text`.
+Also, if you need to consider using partner's (other side) reply, just call `Message msg = chat.GetPartnerMessage() ?? break;`, which will return a Message object, and now you can extract the real message by doing `msg.Text`.
 
 But after the conversation is ended, you need to guess whenever the partner was a bot or a human. You can do that by calling `chat.GuessPartner(chat.PredictPartner)`, which will always guess the right option.
 
