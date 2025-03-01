@@ -3,7 +3,7 @@ Simple library for making bots in humanornot.ai written in C# 13/.NET 9
 
 # How to install
 
-Download the .nuget package from release<br/>
+Download the .dll package from release (Don't worry if you're on linux)<br/>
 Add it as a refrence in your project<br/>
 Profit!
 
